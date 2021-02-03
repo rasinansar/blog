@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/rasinansar`,
       },
       {
         name: `dribbble`,
@@ -49,8 +49,8 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: false,
-          contentful: true,
+          local: true,
+          // contentful: true,
         },
       },
     },
