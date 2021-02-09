@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://rasinansar.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `I am Rasin Ansar, the coolest guy`,
+      heading: `I am Rasin Ansar, the blah blah of etc.`,
       maxWidth: 652,
     },
     social: [
