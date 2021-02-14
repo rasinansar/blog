@@ -2,18 +2,18 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
+    title: `Rasin Ansar`,
     name: `Rasin Ansar`,
     siteUrl: `https://rasinansar.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `I am Rasin Ansar, the coolest guy`,
+      heading: `I am Rasin Ansar, the <a href=#>resume</a>`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        // url: `https://twitter.com/narative`,
+        url: `https://twitter.com/rasinansar`,
       },
       {
         name: `github`,
@@ -30,7 +30,7 @@ module.exports = {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
+        name: `Rasin Ansar`,
         short_name: `Novela`,
         start_url: `/`,
         background_color: `#fff`,
@@ -62,6 +62,12 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-9L4DNKZXKE",
+     },
     },
   ],
 };
