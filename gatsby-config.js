@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://rasinansar.com`,
     description: `This is my personal blog, where I write about things related to e-commerce, technology, entrepreneurship, and everything in between`,
     hero: {
-      heading: `Hey, I am Rasin Ansar, I write about technology, e-commerce, and everything in between. Here is my <a href=#>resume</a>`,
+      heading: `Hey, I am <a href=#>Rasin Ansar</a>, I write about technology, ecommerce, and everything in between`,
       maxWidth: 652,
     },
     social: [
