@@ -2,18 +2,18 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
+    title: `Technology, E-commerce, and Entrepreneurship | Rasin Ansar`,
     name: `Rasin Ansar`,
     siteUrl: `https://rasinansar.com`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `This is my personal blog, where I write about things related to e-commerce, technology, entrepreneurship, and everything in between`,
     hero: {
-      heading: `I am Rasin Ansar, the blah blah of etc.`,
+      heading: `Hey, I am Rasin Ansar, I write about technology, e-commerce, and everything in between. Here is my <a href=#>resume</a>`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        // url: `https://twitter.com/narative`,
+        url: `https://twitter.com/rasinansar`,
       },
       {
         name: `github`,
@@ -49,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Rasin Ansar's Personal Blog`,
+        short_name: `Rasin`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -63,5 +63,11 @@ module.exports = {
       options: {
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-9L4DNKZXKE`
+      }
+    }
   ],
 };
